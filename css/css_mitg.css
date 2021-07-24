@@ -1,90 +1,285 @@
 /* CSS Untuk Web MITG */
 
 /* BG Footer */
-.bg-greyMI{
-    background-color: #DFDFDF;
+.bg-greyMI {
+  background-color: #dfdfdf;
 }
 
 /* Social Media Button */
-.sosmed_instagram{
-    color:grey;
+.sosmed_instagram {
+  color: grey;
 }
-.sosmed_facebook{
-    color: grey;
+.sosmed_facebook {
+  color: grey;
 }
-.sosmed_facebook:hover{
-    color:royalblue;
+.sosmed_facebook:hover {
+  color: royalblue;
 }
-.sosmed_instagram:hover{
-    color:deeppink;
+.sosmed_instagram:hover {
+  color: deeppink;
 }
 
 /* Judul Card */
-.card-title:link {text-decoration: none;}
-.card-title:hover {text-decoration: none; color: #B52E25 !important;}
-.card-title:visited {text-decoration: none;}
-.card-title:focus {text-decoration: none;}
+.card-title:link {
+  text-decoration: none;
+}
+.card-title:hover {
+  text-decoration: none;
+  color: #b52e25 !important;
+}
+.card-title:visited {
+  text-decoration: none;
+}
+.card-title:focus {
+  text-decoration: none;
+}
 
 /* Logo Slider */
 .brands {
-    width: 100%;
-    padding-top: 90px;
-    padding-bottom: 90px
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .brands_slider_container {
-    height: 135px;
-    padding-left: 0px;
-    padding-right: 0px;
-    background: #fff
+  height: 135px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: #fff;
 }
 
 .brands_slider {
-    height: 100%;
-    margin-top: 50px;
+  height: 100%;
+  margin-top: 50px;
 }
 
 .brands_item {
-    height: 100%
+  height: 100%;
 }
 
 .brands_item img {
-    display:flex;
-    align-content: flex-end;
-    align-self: flex-end;
-    max-width: 100%;
-    align-items: flex-end; 
+  display: flex;
+  align-content: flex-end;
+  align-self: flex-end;
+  max-width: 100%;
+  align-items: flex-end;
 }
 
 .brands_nav {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 5px;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 5px;
+  cursor: pointer;
 }
 
 .brands_nav i {
-    color: #e5e5e5;
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease;
+  color: #e5e5e5;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
 }
 
 .brands_nav:hover i {
-    color: #676767;
+  color: #676767;
 }
 
 .brands_prev {
-    left: 40px;
+  left: 40px;
 }
 
 .brands_next {
-    right: 40px;
+  right: 40px;
+}
+
+/* Icon Solution Provider */
+
+.icon_solution_provider {
+  height: 250px;
+  width: 250px;
+  transition: width 1s, height 1s;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  /* background-image: url("/images/element/ring1.svg"); */
+}
+
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0rem;
+}
+
+.carousel-control-prev {
+  padding: 0rem;
+  margin: 0rem;
+  z-index: 2 !important;
+}
+.carousel-control-next {
+  padding: 0rem;
+  margin: 0rem;
+  z-index: 2 !important;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  left: 0 !important;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background-image: url("../images/element/bg_slider.svg");
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-size: contain, cover;
+  background-position: left, top;
+  /* // Use flex for alignment (1-3)
+  display: flex; // 1. allow flex styles
+  align-items: center; // 2. vertically center contents
+  justify-content: center; // 3. horizontally center contents
+  width: $carousel-control-width;
+  padding: 0;
+  color: $carousel-control-color;
+  text-align: center;
+  background: none;
+  border: 0;
+  opacity: $carousel-control-opacity;
+  @include transition($carousel-control-transition); */
+}
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing {
+  /* margin-top: 5rem; */
+  padding-bottom: 5rem;
+}
+.marketing .col-lg-4 {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+/* rtl:end:ignore */
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Judul Utama */
+.judul_kiri_slider {
+  color: white;
+  text-align: start;
+}
+
+.judul_kiri {
+  color: #767473;
+  text-align: start;
+}
+
+.judul_kanan {
+  color: #767473;
+  text-align: end;
+}
+
+.sub_judul {
+  color: #b52e25;
+  text-align: center;
+  font-family: url("../font/Sansation-Bold.ttf") !important;
+  /* font-family: "Sansation", Arial, sans-serif; */
+}
+
+/* Red line - aksen garis multiintegra */
+.red_line {
+  height: 10px;
+}
+
+/* Untuk background ring */
+.background-ring {
+  background-image: url("../images/element/ring1.svg");
+  background-position: absolute;
+  background-position-x: -1%;
+  background-position-y: -3%;
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+}
+
+.container-fluid {
+  padding-top: 5rem;
+}
+
+/* Latest News */
+.latest_news {
+  padding-top: 3rem;
+  background-image: url("../images/background/background1.jpg");
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
 }
