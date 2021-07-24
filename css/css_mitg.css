@@ -1,0 +1,90 @@
+/* CSS Untuk Web MITG */
+
+/* BG Footer */
+.bg-greyMI{
+    background-color: #DFDFDF;
+}
+
+/* Social Media Button */
+.sosmed_instagram{
+    color:grey;
+}
+.sosmed_facebook{
+    color: grey;
+}
+.sosmed_facebook:hover{
+    color:royalblue;
+}
+.sosmed_instagram:hover{
+    color:deeppink;
+}
+
+/* Judul Card */
+.card-title:link {text-decoration: none;}
+.card-title:hover {text-decoration: none; color: #B52E25 !important;}
+.card-title:visited {text-decoration: none;}
+.card-title:focus {text-decoration: none;}
+
+/* Logo Slider */
+.brands {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px
+}
+
+.brands_slider_container {
+    height: 135px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: #fff
+}
+
+.brands_slider {
+    height: 100%;
+    margin-top: 50px;
+}
+
+.brands_item {
+    height: 100%
+}
+
+.brands_item img {
+    display:flex;
+    align-content: flex-end;
+    align-self: flex-end;
+    max-width: 100%;
+    align-items: flex-end; 
+}
+
+.brands_nav {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.brands_nav i {
+    color: #e5e5e5;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.brands_nav:hover i {
+    color: #676767;
+}
+
+.brands_prev {
+    left: 40px;
+}
+
+.brands_next {
+    right: 40px;
+}
