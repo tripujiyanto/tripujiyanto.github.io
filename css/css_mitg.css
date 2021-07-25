@@ -1,16 +1,41 @@
 /* CSS Untuk Web MITG */
 
+@font-face {
+  font-family: "sansationbold";
+  src: url("Sansation-Bold-webfont.eot");
+  src: url("Sansation-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("Sansation-Bold-webfont.woff2") format("woff2"), url("../font/Sansation-Bold-webfont.woff") format("woff"),
+    url("Sansation-Bold-webfont.ttf") format("truetype"), url("Sansation-Bold-webfont.svg#sansationbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* BG Footer */
 .bg-greyMI {
-  background-color: #dfdfdf;
+  background-color: #616060;
+}
+
+.link_footer {
+  color: #bebebe;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+
+.link_footer:hover {
+  color: white;
+  text-decoration-line: underline;
+  /* -moz-text-decoration-line: none; */
+}
+
+.text_footer {
+  color: #bebebe;
 }
 
 /* Social Media Button */
 .sosmed_instagram {
-  color: grey;
+  color: #bebebe;
 }
 .sosmed_facebook {
-  color: grey;
+  color: #bebebe;
 }
 .sosmed_facebook:hover {
   color: royalblue;
@@ -112,7 +137,7 @@
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
   color: #5a5a5a;
   /* background-image: url("/images/element/ring1.svg"); */
 }
@@ -145,21 +170,37 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 36rem;
+  background-color: #616060;
+  /* default nya 32rem */
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
+  /* left: 0; */
+  /* min-height: 100%;
+  max-height: max-content; */
+  height: max-content;
+  /* min-width: 100%;
+  max-width: max-content; */
+  /* min-width: 100%; */
+  /* height: 36rem; */
+}
+
+.bg_slider {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   z-index: 1;
-  background-image: url("../images/element/bg_slider.svg");
+  /* background-image: url("../images/element/bg_slider.svg"), url("../images/element/bg_slider2.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: left top, right top; */
+  background-image: url("../images/element/bg_slider3.svg");
   background-repeat: no-repeat;
-  /* background-size: auto; */
-  background-size: contain, cover;
-  background-position: left, top;
+  background-size: cover;
+  background-position-x: center;
   /* // Use flex for alignment (1-3)
   display: flex; // 1. allow flex styles
   align-items: center; // 2. vertically center contents
@@ -248,16 +289,30 @@ body {
   text-align: end;
 }
 
+.putih {
+  color: white !important;
+}
+
 .sub_judul {
   color: #b52e25;
   text-align: center;
-  font-family: url("../font/Sansation-Bold.ttf") !important;
+  font-family: "sansationbold", Arial, sans-serif;
   /* font-family: "Sansation", Arial, sans-serif; */
+}
+
+.light_silver {
+  color: #dcd9d8;
 }
 
 /* Red line - aksen garis multiintegra */
 .red_line {
   height: 10px;
+  width: max-content;
+}
+
+.red_line_menu {
+  color: #b52e25;
+  height: 0.5em;
 }
 
 /* Untuk background ring */
@@ -277,9 +332,34 @@ body {
 /* Latest News */
 .latest_news {
   padding-top: 3rem;
+  background-color: black;
   background-image: url("../images/background/background1.jpg");
-  background-position: absolute;
+  /* background-position: absolute; */
+  background-position-x: +150%;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   color: white !important;
+}
+
+.post_news {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image_news {
+  height: 200px;
+  width: 200px;
+}
+
+.link_news > h3,
+.link_news > a {
+  color: white;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+
+.link_news:hover > h3,
+.link_news:hover > a {
+  color: #b52e25;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
 }
