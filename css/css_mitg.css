@@ -1,10 +1,19 @@
 /* CSS Untuk Web MITG */
-
+/* font */
 @font-face {
   font-family: "sansationbold";
   src: url("Sansation-Bold-webfont.eot");
   src: url("Sansation-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("Sansation-Bold-webfont.woff2") format("woff2"), url("../font/Sansation-Bold-webfont.woff") format("woff"),
     url("Sansation-Bold-webfont.ttf") format("truetype"), url("Sansation-Bold-webfont.svg#sansationbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sansationlight";
+  src: url("Sansation-Light-webfont.eot");
+  src: url("Sansation-Light-webfont.eot?#iefix") format("embedded-opentype"), url("Sansation-Light-webfont.woff2") format("woff2"), url("../font/Sansation-Light-webfont.woff") format("woff"),
+    url("Sansation-Light-webfont.ttf") format("truetype"), url("Sansation-Light-webfont.svg#sansationbold") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -21,9 +30,9 @@
 }
 
 .link_footer:hover {
-  color: white;
+  color: #dadada;
   text-decoration-line: underline;
-  /* -moz-text-decoration-line: none; */
+  -moz-text-decoration-line: underline;
 }
 
 .text_footer {
@@ -142,6 +151,18 @@ body {
   /* background-image: url("/images/element/ring1.svg"); */
 }
 
+.link_isi {
+  color: #292d40 !important;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+
+.link_isi:hover {
+  color: #b52e25;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+}
+
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
 
@@ -177,6 +198,7 @@ body {
 .carousel-item > img {
   position: absolute;
   top: 0;
+  align-self: center;
   /* left: 0; */
   /* min-height: 100%;
   max-height: max-content; */
@@ -274,6 +296,29 @@ body {
 }
 
 /* Judul Utama */
+.judul_halaman_atas {
+  text-align: start;
+  color: #292d40;
+  /* color: white; */
+  /* background-image: url("../images/background/background2.jpg"); */
+  /* background: rgb(194, 191, 190);
+  background: -moz-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c2bfbe",endColorstr="#e8e5e4",GradientType=1); */
+  /* background: url("../images/element/line1.svg") right top no-repeat; */
+  /* background: url("../images/element/ring1.svg") no-repeat; */
+
+  /* background: rgb(194, 191, 190), url("../images/element/line1.svg") right top no-repeat; */
+  background: url("../images/element/line2.svg") no-repeat, linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background-size: cover, auto;
+}
+
+.background_line {
+  background: url("../images/element/line2.svg") right bottom no-repeat;
+  background-size: cover;
+}
+
 .judul_kiri_slider {
   color: white;
   text-align: start;
@@ -300,6 +345,14 @@ body {
   /* font-family: "Sansation", Arial, sans-serif; */
 }
 
+.sansationbold {
+  font-family: "sansationbold", Arial, sans-serif;
+}
+
+.sansationlight {
+  font-family: "sansationlight", Arial, sans-serif;
+}
+
 .light_silver {
   color: #dcd9d8;
 }
@@ -317,12 +370,25 @@ body {
 
 /* Untuk background ring */
 .background-ring {
-  background-image: url("../images/element/ring1.svg");
-  background-position: absolute;
+  /* background-image: url("../images/element/ring1.svg"); */
+  /* background-position: absolute;
   background-position-x: -1%;
   background-position-y: -3%;
   background-repeat: no-repeat;
   background-size: 500px 500px;
+  image-resolution: 500px 500px;
+  animation: mymove 17s infinite;
+  z-index: -1; */
+  background: url("../images/element/ring1.svg") no-repeat;
+  background-position: center -70px;
+}
+
+.background_solution {
+  background: url("../images/element/bg_solution.svg") no-repeat;
+  /* background-position: absolute; */
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 1700px auto;
 }
 
 .container-fluid {
