@@ -26,55 +26,54 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="g6045"
-     style="display:inline">
+     id="g7959">
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 833.98,0 c 142.681,224.231 471.46,374.409 679.29,281.606 0.66,-0.292 1.31,-0.586 1.96,-0.882 209.42,-95.4 182.56,-223.9714 404.77,-171.868"
-       id="path6021" />
+       d="M 848.452 0 C 1407.96 64.3999 1287.98 242.641 1475.01 277.877 C 1490.77 280.846 1506.88 280.948 1523.16 278.453 C 1623.56 263.071 1730.37 148.965 1801.4 0"
+       id="path7935" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 822.69,0 c 151.728,228.989 477.73,364.474 685.56,271.504 0.66,-0.293 1.31,-0.589 1.97,-0.886 209.23,-95.229 184.6,-199.016 409.78,-149.204"
-       id="path6023" />
+       d="M 827.395 0 C 1379.38 64.6884 1283.18 238.239 1470.51 272.609 C 1486.53 275.536 1502.91 275.769 1519.51 273.542 C 1626.94 259.914 1738.08 150.59 1807.99 0"
+       id="path7937" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 811.401,0 c 160.775,233.746 484.009,354.538 691.829,261.403 0.66,-0.295 1.31,-0.592 1.97,-0.89 209.04,-95.059 186.65,-174.0615 414.8,-126.541"
-       id="path6025" />
+       d="M 806.338 0 C 1350.8 64.9769 1278.38 233.837 1466.01 267.341 C 1482.29 270.227 1498.93 270.591 1515.86 268.63 C 1630.32 256.757 1745.78 152.215 1814.59 0"
+       id="path7939" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 800.111,0 c 169.822,238.504 490.289,344.603 698.099,251.302 0.66,-0.297 1.32,-0.596 1.98,-0.895 C 1709.04,155.519 1688.88,101.301 1920,146.53"
-       id="path6027" />
+       d="M 785.281 0 C 1322.21 65.2654 1273.59 229.436 1461.52 262.073 C 1478.04 264.917 1494.95 265.413 1512.21 263.718 C 1633.7 253.599 1753.49 153.841 1821.18 0"
+       id="path7941" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 788.822,0 c 178.869,243.261 496.558,334.668 704.358,241.2 0.67,-0.299 1.33,-0.598 1.99,-0.898 208.67,-94.718 190.74,-124.152 424.83,-81.214"
-       id="path6029" />
+       d="M 764.224 0 C 1293.63 65.554 1268.79 225.034 1457.02 256.805 C 1473.8 259.607 1490.98 260.234 1508.56 258.806 C 1637.08 250.442 1761.19 155.466 1827.78 0"
+       id="path7943" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 777.532,0 c 187.916,248.019 502.838,324.732 710.628,231.099 0.67,-0.301 1.33,-0.602 2,-0.903 C 1698.64,135.649 1682.94,131 1920,171.647"
-       id="path6031" />
+       d="M 743.167 0 C 1265.04 65.8425 1263.99 220.632 1452.52 251.537 C 1469.56 254.297 1487 255.056 1504.9 253.895 C 1640.46 247.285 1768.9 157.091 1834.38 0"
+       id="path7945" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 766.242,0 c 196.964,252.776 509.118,314.797 716.898,220.998 0.67,-0.303 1.33,-0.605 2,-0.907 208.29,-94.377 194.84,-74.242 434.86,-35.886"
-       id="path6033" />
+       d="M 722.11 0 C 1236.46 66.131 1259.19 216.231 1448.02 246.27 C 1465.32 248.988 1483.02 249.878 1501.25 248.983 C 1643.84 244.128 1776.61 158.716 1840.97 0"
+       id="path7947" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 754.953,0 c 206.01,257.533 515.397,304.861 723.157,210.896 0.68,-0.304 1.35,-0.608 2.02,-0.911 208.1,-94.206 196.88,-49.286 439.87,-13.222"
-       id="path6035" />
+       d="M 701.053 0 C 1207.88 66.4195 1254.39 211.829 1443.52 241.002 C 1461.07 243.678 1479.05 244.7 1497.6 244.071 C 1647.22 240.97 1784.31 160.341 1847.57 0"
+       id="path7949" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 743.663,0 c 215.057,262.291 521.667,294.926 729.427,200.795 0.68,-0.306 1.35,-0.611 2.02,-0.915 207.92,-94.037 198.93,-24.332 444.89,9.441"
-       id="path6037" />
+       d="M 679.996 0 C 1179.29 66.708 1249.59 207.427 1439.02 235.734 C 1456.83 238.368 1475.07 239.521 1493.95 239.159 C 1650.6 237.813 1792.02 161.966 1854.16 0"
+       id="path7951" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 732.373,0 c 224.105,267.048 527.947,284.99 735.697,190.694 0.68,-0.308 1.35,-0.615 2.03,-0.92 207.73,-93.8657 200.97,0.624 449.9,32.105"
-       id="path6039" />
+       d="M 658.939 0 C 1150.71 66.9965 1244.79 203.026 1434.53 230.466 C 1452.59 233.058 1471.09 234.343 1490.3 234.248 C 1653.98 234.656 1799.72 163.591 1860.76 0"
+       id="path7953" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 721.084,0 c 233.151,271.806 534.226,275.055 741.956,180.592 0.69,-0.31 1.36,-0.618 2.04,-0.923 207.54,-93.6958 203.02,25.578 454.92,54.768"
-       id="path6041" />
+       d="M 637.881 0 C 1122.12 67.285 1239.99 198.624 1430.03 225.198 C 1448.35 227.749 1467.12 229.165 1486.65 229.336 C 1657.36 231.499 1807.43 165.216 1867.36 0"
+       id="path7955" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 709.794,0 c 242.199,276.563 540.496,265.12 748.226,170.491 0.69,-0.312 1.37,-0.621 2.05,-0.928 207.35,-93.5249 205.06,50.534 459.93,77.432"
-       id="path6043" />
+       d="M 616.824 0 C 1093.54 67.5735 1235.2 194.222 1425.53 219.93 C 1444.1 222.439 1463.14 223.986 1483 224.424 C 1660.74 228.341 1815.13 166.841 1873.95 0"
+       id="path7957" />
   </g>
 </svg>

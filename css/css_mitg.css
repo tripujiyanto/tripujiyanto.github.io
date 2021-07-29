@@ -35,6 +35,18 @@
   -moz-text-decoration-line: underline;
 }
 
+.link_footer_h5 {
+  color: white;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+
+.link_footer_h5:hover {
+  color: white;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+}
+
 .text_footer {
   color: #bebebe;
 }
@@ -163,6 +175,13 @@ body {
   -moz-text-decoration-line: underline;
 }
 
+.navbar-nav > .active > a {
+  color: aqua;
+  background-color: chartreuse;
+}
+.nav-item > a:hover {
+  color: aqua;
+}
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
 
@@ -296,21 +315,68 @@ body {
 }
 
 /* Judul Utama */
-.judul_halaman_atas {
-  text-align: start;
-  color: #292d40;
-  /* color: white; */
-  /* background-image: url("../images/background/background2.jpg"); */
-  /* background: rgb(194, 191, 190);
-  background: -moz-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
-  background: linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c2bfbe",endColorstr="#e8e5e4",GradientType=1); */
-  /* background: url("../images/element/line1.svg") right top no-repeat; */
-  /* background: url("../images/element/ring1.svg") no-repeat; */
-
-  /* background: rgb(194, 191, 190), url("../images/element/line1.svg") right top no-repeat; */
+.judul_halaman_atas_grey1 {
+  background: rgb(194, 191, 190);
+  background: url("../images/element/line2.svg") no-repeat, -moz-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line2.svg") no-repeat, -webkit-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
   background: url("../images/element/line2.svg") no-repeat, linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background-size: cover, auto;
+}
+.judul_halaman_atas_grey2 {
+  background: rgb(194, 191, 190);
+  background: url("../images/element/line3.svg") no-repeat, -moz-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line3.svg") no-repeat, -webkit-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line3.svg") no-repeat, linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background-size: cover, auto;
+}
+.judul_halaman_atas_grey3 {
+  background: rgb(194, 191, 190);
+  background: url("../images/element/line4.svg") no-repeat, -moz-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line4.svg") no-repeat, -webkit-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line4.svg") no-repeat, linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background-size: cover, auto;
+}
+.judul_halaman_atas_grey4 {
+  background: rgb(194, 191, 190);
+  background: url("../images/element/line5.svg") no-repeat, -moz-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line5.svg") no-repeat, -webkit-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line5.svg") no-repeat, linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background-size: cover, auto;
+}
+.judul_halaman_atas_grey5 {
+  background: rgb(194, 191, 190);
+  background: url("../images/element/line6.svg") no-repeat, -moz-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line6.svg") no-repeat, -webkit-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line6.svg") no-repeat, linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background-size: cover, auto;
+}
+.judul_halaman_atas_grey6 {
+  background: rgb(194, 191, 190);
+  background: url("../images/element/line7.svg") no-repeat, -moz-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line7.svg") no-repeat, -webkit-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/line7.svg") no-repeat, linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background-size: cover, auto;
+}
+
+.judul_halaman_atas_biru {
+  background: #4b6cb7; /* fallback for old browsers */
+  background: url("../images/element/line1.svg") no-repeat, -webkit-linear-gradient(to right, #182848, #4b6cb7); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/line1.svg") no-repeat, linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: url("../images/element/line1.svg") no-repeat cover auto; */
+  background-size: cover, auto;
+}
+
+.judul_halaman_atas_hijau {
+  background: #6a9113; /* fallback for old browsers */
+  background: url("../images/element/line10.svg") no-repeat, -webkit-linear-gradient(to right, #141517, #6a9113); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/line10.svg") no-repeat, linear-gradient(to right, #141517, #6a9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover, auto;
+}
+
+.judul_halaman_atas_merah {
+  background: #870000; /* fallback for old browsers */
+  background: url("../images/element/line11.svg") no-repeat, -webkit-linear-gradient(to right, #190a05, #870000); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/line11.svg") no-repeat, linear-gradient(to right, #190a05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover, auto;
 }
 
@@ -380,7 +446,10 @@ body {
   animation: mymove 17s infinite;
   z-index: -1; */
   background: url("../images/element/ring1.svg") no-repeat;
-  background-position: center -70px;
+  /* background-position: center -70px; */
+  background-position-x: center;
+  background-position-y: -30px;
+  background-size: 1700px auto;
 }
 
 .background_solution {
