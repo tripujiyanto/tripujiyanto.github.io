@@ -368,8 +368,8 @@ body {
 
 .judul_halaman_atas_hijau {
   background: #6a9113; /* fallback for old browsers */
-  background: url("../images/element/line10.svg") no-repeat, -webkit-linear-gradient(to right, #141517, #6a9113); /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../images/element/line10.svg") no-repeat, linear-gradient(to right, #141517, #6a9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: url("../images/element/line12.svg") no-repeat, -webkit-linear-gradient(to right, #141517, #6a9113); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/line12.svg") no-repeat, linear-gradient(to right, #141517, #6a9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover, auto;
 }
 
@@ -497,4 +497,42 @@ body {
   color: #b52e25;
   text-decoration-line: none;
   -moz-text-decoration-line: none;
+}
+
+.link_news2 > h3,
+.link_news2 > a {
+  color: black;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+
+.link_news2:hover > h3,
+.link_news2:hover > a {
+  color: #b52e25;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+
+.link_news3 {
+  color: black;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+
+.link_news3:hover {
+  color: #b52e25;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+}
+
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
 }
