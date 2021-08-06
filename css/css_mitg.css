@@ -144,7 +144,12 @@
   right: 40px;
 }
 
-/* Icon Solution Provider */
+.logo_global_partner {
+  height: 70px;
+  width: auto;
+}
+
+/* Icon Solution Provider --------------------------*/
 
 .icon_solution_provider {
   height: 250px;
@@ -161,6 +166,7 @@ body {
   /* padding-bottom: 3rem; */
   color: #5a5a5a;
   /* background-image: url("/images/element/ring1.svg"); */
+  /* overflow: hidden; */
 }
 
 .link_isi {
@@ -175,13 +181,18 @@ body {
   -moz-text-decoration-line: underline;
 }
 
-.navbar-nav > .active > a {
+/* .navbar-nav > .active > a {
   color: aqua;
   background-color: chartreuse;
 }
 .nav-item > a:hover {
   color: aqua;
+} */
+
+.text_align_center {
+  text-align: center;
 }
+
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
 
@@ -314,6 +325,84 @@ body {
   }
 }
 
+/* ============ only desktop view (hover menu) ============ */
+
+@media all and (min-width: 992px) {
+  .dropdown-about {
+    min-width: 300px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .navbar .dropdown-menu-end {
+    right: 0;
+    left: auto;
+  }
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    margin-top: 0;
+  }
+  /* .navbar .nav-item:hover .nav-link {
+    color: #fff;
+  } */
+  .navbar .dropdown-menu.fade-down {
+    top: 80%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+  }
+  .navbar .dropdown-menu.fade-up {
+    top: 180%;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    transition: 0.3s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotateX(0deg);
+  }
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  /* padding: 10px; */
+  /* background-color: #ccc; */
+  /* height: 250px; */
+}
+
+/* .column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+} */
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+/* ============ desktop view .end// ============ */
+
 /* Judul Utama */
 .judul_halaman_atas_grey1 {
   background: rgb(194, 191, 190);
@@ -380,6 +469,13 @@ body {
   background-size: cover, auto;
 }
 
+.background_latest_news {
+  background: #485563; /* fallback for old browsers */
+  background: url("../images/element/linefull1.svg") no-repeat, -webkit-linear-gradient(to right, #29323c, #485563); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/linefull1.svg") no-repeat, linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover, auto;
+}
+
 .background_line {
   background: url("../images/element/line2.svg") right bottom no-repeat;
   background-size: cover;
@@ -423,7 +519,7 @@ body {
   color: #dcd9d8;
 }
 
-/* Red line - aksen garis multiintegra */
+/* aksen multiintegra --------------------------------------*/
 .red_line {
   height: 10px;
   width: max-content;
@@ -434,7 +530,14 @@ body {
   height: 0.5em;
 }
 
-/* Untuk background ring */
+.red_box {
+  background: url("../images/element/red_box.svg");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+/* Untuk background ring -----------------------------------*/
 .background-ring {
   /* background-image: url("../images/element/ring1.svg"); */
   /* background-position: absolute;
@@ -467,11 +570,11 @@ body {
 /* Latest News */
 .latest_news {
   padding-top: 3rem;
-  background-color: black;
-  background-image: url("../images/background/background1.jpg");
+  /* background-color: black; */
+  /* background-image: url("../images/background/background1.jpg"); */
   /* background-position: absolute; */
-  background-position-x: +150%;
-  background-repeat: no-repeat;
+  /* background-position-x: +150%;
+  background-repeat: no-repeat; */
   /* background-size: cover; */
   color: white !important;
 }
@@ -535,4 +638,33 @@ body {
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #727272;
+}
+
+/* Google map responsive------------------- */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 {
+    border-radius: 0.3rem;
+  }
 }

@@ -122,6 +122,7 @@ h4 {
 h5 {
   font-size: 1.25rem;
 }
+
 .h6,
 h6 {
   font-size: 1rem;
@@ -3450,9 +3451,11 @@ fieldset:disabled .btn {
 }
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #fff;
+  /* color: #fff; */
+  color: #1e2125;
   text-decoration: none;
-  background-color: #636464;
+  /* background-color: #636464; */
+  background-color: #e9ecef;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -3622,6 +3625,7 @@ fieldset:disabled .btn {
 .nav-link:focus,
 .nav-link:hover {
   color: #767473;
+  text-emphasis-style: bold;
   text-decoration: underline;
   text-decoration-color: #b52e25;
   text-decoration-thickness: 3px;
@@ -4552,7 +4556,7 @@ fieldset:disabled .btn {
   padding: 0.5rem 1rem;
   color: #212529;
   text-decoration: none;
-  background-color: #fff;
+  /* background-color: #fff; */
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .list-group-item:first-child {
