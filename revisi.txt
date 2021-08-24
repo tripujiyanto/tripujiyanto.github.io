@@ -1,0 +1,38 @@
+(6 Agustus 2021 - WK Loji Ageng)
+REVISI
+
+-halaman depan------------------------------------------
+>>DONE<< logo MITG gedein --> (awal 150px menjadi 170px)
+icon radio masih ragu
+>>DONE<< latest news poto diatas (versi hp, yg versi desktop potonya disesuaikan)
+>>DONE<< slide ada 6 gambar (mewakili solution)
+
+-halaman solution provider------------------------------
+applicable for ngeblok silver memanjang
+yg gambar bagan dikasih frame
+
+-halaman who we are-------------------------------------
+>>DONE<< bagian logo diblok abu2 dan logo warna putih, kecuali logo MITG
+tambah milestone di bagian paling bawah
+kasih background bola dunia
+
+-header-------------------------------------------------
+motif batik di bagian atas judul (pojok kanan)
+
+-footer-------------------------------------------------
+>>DONE<< footer (sub judul kasih kotak / hover 3 dot, bold-tipis untuk list)
+>>DONE<< footer follow us taruh diatas icon
+
+-menu---------------------------------------------------
+>>DONE<< nambah menu photo galery (internal, project)
+>>DONE<< management team dihapus (karena poto-poto bareng masuk galeri)
+>>DONE<< nambah menu project site
+
+-nambah halaman-----------------------------------------
+photo gallery
+project sites
+
+
+[YANG PERLU DIPERBAIKI]|||||||||||||||||||||||||||||||||
+
+-halaman solution provider dirapikan (mode hp masih berantakan)

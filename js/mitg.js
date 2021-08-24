@@ -32,12 +32,33 @@ $(document).ready(function () {
 });
 
 // menu--------------------------->start
-document.addEventListener("DOMContentLoaded", function () {
-  /////// Prevent closing from click inside dropdown
-  document.querySelectorAll(".dropdown-menu").forEach(function (element) {
-    element.addEventListener("click", function (e) {
-      e.stopPropagation();
-    });
-  });
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   /////// Prevent closing from click inside dropdown
+//   document.querySelectorAll(".dropdown-menu").forEach(function (element) {
+//     element.addEventListener("click", function (e) {
+//       e.stopPropagation();
+//     });
+//   });
+// });
 // DOMContentLoaded  end
+
+// Photo Gallery------------------>start
+$(".gallery ul li a").click(function () {
+  var itemID = $(this).attr("href");
+  $(".gallery ul").addClass("item_open");
+  $(itemID).addClass("item_open");
+  return false;
+});
+$(".close").click(function () {
+  $(".port, .gallery ul").removeClass("item_open");
+  return false;
+});
+
+$(".gallery ul li a").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: parseInt($("#top").offset().top),
+    },
+    400
+  );
+});

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link href="./css/css_mitg.css" rel="stylesheet">
+    <link href="./css/css_bootstrap5_mitg.css" rel="stylesheet">
+    <!-- <link href="./css/css_photo_gallery.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <!-- link js, css untuk photo gallery -->
+    <script type="text/javascript" src="./js/jquery-11.0.min.js"></script>
+    <script type="text/javascript" src="./js/unitegallery.min.js"></script>
+
+    <link rel="stylesheet" href="./css/unite-gallery.css" type="text/css" />
+
+    <script type="text/javascript" src="./js/ug-theme-tiles.js"></script>
+    <title>MultiIntegra Website</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow" id="menu">
+        <div class="container">
+          <!-- logo MITG -->
+            <a class="navbar-brand mt-2" href="index.html">
+              <img class="logo" src="./images/logo/logo_mitg.svg" alt="logo_mitg">
+            </a>
+          <!-- Menu Navbar -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Tog 3zgle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link ps-4 pe-4 border-start" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-4 pe-4 border-start" href="solution.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">SOLUTIONS </a>
+                <ul class="dropdown-menu dropdown-menu-end fade-up shadow" aria-labelledby="navbarDropdownMenuLink">
+                  <div class="row">
+                    <!-- <div class="column"> -->
+                  <li><a class="dropdown-item pt-2 pb-2 ps-3 pe-4" href="solution/military_law_enforcement.html"><img src="images/icon/icon_military.svg" style="margin-right: 5px;" width="35">Military & Law Enforcement</a></li>
+                  <li><a class="dropdown-item pt-2 pb-2 ps-3 pe-4" href="solution/maritime_technology.html"><img src="images/icon/icon_maritime.svg" style="margin-right: 5px;" width="35">Maritime Technology</a></li>
+                  <li><a class="dropdown-item pt-2 pb-2 ps-3 pe-4" href="solution/security_intelligence.html"><img src="images/icon/icon_security_intelligence.svg" style="margin-right: 5px;" width="35">Security Intelligence</a></li>
+                <!-- </div> -->
+                <!-- <div class="column"> -->
+                  <li><a class="dropdown-item pt-2 pb-2 ps-3 pe-4" href="solution/professional_information_technology.html"><img src="images/icon/icon_IT.svg" style="margin-right: 5px;" width="35">Professional Information Technology</a></li>
+                  <li><a class="dropdown-item pt-2 pb-2 ps-3 pe-4" href="solution/radio_telecommunication.html"><img src="images/icon/icon_radio.svg" style="margin-right: 5px;" width="35">Radio & Telecommunication</a></li>
+                  <li><a class="dropdown-item pt-2 pb-2 ps-3 pe-4" href="solution/aviation_navigation.html"><img src="images/icon/icon_aviation.svg" style="margin-right: 5px;" width="35">Aviation & Navigation</a></li>
+                <!-- </div> -->
+                  </div>
+              </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-4 pe-4 border-start active" href="about.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">ABOUT</a>
+                <ul class="dropdown-menu dropdown-menu-end fade-up shadow" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="row align-items-start dropdown-about">
+                        <li><a class="dropdown-item pb-2 pt-2 ps-4" href="about.html">Who We Are</a></li>
+                        <li><a class="dropdown-item pb-2 pt-2 ps-4" href="contact.html">Contact Us</a></li>
+                        <li><a class="dropdown-item pb-2 pt-2 ps-4 active" href="photo_gallery.html">Photo Gallery</a></li>
+                        <li><a class="dropdown-item pb-2 pt-2 ps-4" href="project_sites.html">Project Sites</a></li>
+                        <li><hr class="dropdown-divider ms-3 me-3"></li>
+                        <li><a class="dropdown-item pb-2 pt-2 ps-4" href="customer_list.html">Customer List</a></li>
+                        <li><a class="dropdown-item pb-2 pt-2 ps-4" href="global_partner.html">Global Partner</a></li>
+                    </div><!-- end row -->
+              </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pe-4 border-start" href="news.html">NEWS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Akhir Navbar -->
+    </header>
+<main>
+    <!-- <div class="container-fluid judul_halaman_atas_merah">
+      <div class="container pt-3 pb-5">
+        <div class="col-md-5">
+          <h1 class="putih fw-light"><b class="fw-bold">PHOTO</b><br>GALLERY</h1>
+          <img href="#" src="./images/element/white_line.svg"   class="red_line float-start">
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Isi -->
+    <section class="py-5 text-center container">
+      <!-- <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="display-5 fw-bold text-primary">Company Photo Gallery</h1>
+          <p class="lead text-muted">A collection of various internal company photos, such as gatherings, meetings, photos of staff and other important events</p>
+          <p>
+            <a href="project_photos.html" class="btn btn-outline-secondary my-2">Switch to Project Photos</a>
+          </p>
+          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck1">gathering event</label>
+          
+            <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck2">birthday event</label>
+          
+            <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck3">staff photo</label>
+
+            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck4">2018</label>
+
+            <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck5">2019</label>
+            
+            <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck6">2020</label>
+
+            <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck7">2021</label>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-lg-6 col-md-10 col-sm-12 mx-auto pt-lg-5">
+        <h1 class="judul_tengah fw-light text-uppercase"><b class="fw-bold">Company</b><br>Photo Gallery</h1>
+        <img href="#" src="./images/element/red_line3.svg" class="red_line float-start">
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 mx-auto pb-lg-3">
+        <p class="lead text-muted my-5">A collection of various internal company photos, such as gatherings, meetings, photos of staff and other important events</p>
+        <a href="project_photos.html" class="btn btn-outline-secondary my-1">Switch to Project Photos</a>
+      </div>
+    </section>
+
+    <div class="container" style="padding-bottom: 7rem;">
+    <div id="gallery" style="display: none">
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_001.jpg" data-image="images/internal/big/teknisi_001.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_002.jpg" data-image="images/internal/big/teknisi_002.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_003.jpg" data-image="images/internal/big/teknisi_003.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_004.jpg" data-image="images/internal/big/teknisi_004.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_005.jpg" data-image="images/internal/big/teknisi_005.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_006.jpg" data-image="images/internal/big/teknisi_006.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_007.jpg" data-image="images/internal/big/teknisi_007.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_008.jpg" data-image="images/internal/big/teknisi_008.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_009.jpg" data-image="images/internal/big/teknisi_009.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Teknisi" src="images/internal/thumbs/teknisi_010.jpg" data-image="images/internal/big/teknisi_010.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Integraha" src="images/internal/thumbs/integraha_001.jpg" data-image="images/internal/big/integraha_001.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_001.jpg" data-image="images/internal/big/kreatif_001.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_002.jpg" data-image="images/internal/big/kreatif_002.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_003.jpg" data-image="images/internal/big/kreatif_003.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_004.jpg" data-image="images/internal/big/kreatif_004.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_005.jpg" data-image="images/internal/big/kreatif_005.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_006.jpg" data-image="images/internal/big/kreatif_006.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_007.jpg" data-image="images/internal/big/kreatif_007.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_008.jpg" data-image="images/internal/big/kreatif_008.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_009.jpg" data-image="images/internal/big/kreatif_009.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_010.jpg" data-image="images/internal/big/kreatif_010.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Kreatif" src="images/internal/thumbs/kreatif_011.jpg" data-image="images/internal/big/kreatif_011.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_001.jpg" data-image="images/internal/big/hut_ri_001.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_002.jpg" data-image="images/internal/big/hut_ri_002.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_003.jpg" data-image="images/internal/big/hut_ri_003.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_004.jpg" data-image="images/internal/big/hut_ri_004.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_005.jpg" data-image="images/internal/big/hut_ri_005.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_006.jpg" data-image="images/internal/big/hut_ri_006.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_007.jpg" data-image="images/internal/big/hut_ri_007.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_008.jpg" data-image="images/internal/big/hut_ri_008.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_009.jpg" data-image="images/internal/big/hut_ri_009.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_010.jpg" data-image="images/internal/big/hut_ri_010.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_011.jpg" data-image="images/internal/big/hut_ri_011.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_012.jpg" data-image="images/internal/big/hut_ri_012.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_013.jpg" data-image="images/internal/big/hut_ri_013.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_014.jpg" data-image="images/internal/big/hut_ri_014.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_015.jpg" data-image="images/internal/big/hut_ri_015.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_016.jpg" data-image="images/internal/big/hut_ri_016.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_017.jpg" data-image="images/internal/big/hut_ri_017.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_018.jpg" data-image="images/internal/big/hut_ri_018.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_019.jpg" data-image="images/internal/big/hut_ri_019.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_020.jpg" data-image="images/internal/big/hut_ri_020.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_021.jpg" data-image="images/internal/big/hut_ri_021.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Dirgahayu Republik Indonesia" src="images/internal/thumbs/hut_ri_022.jpg" data-image="images/internal/big/hut_ri_022.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Happy Birthday" src="images/internal/thumbs/happy_birthday_001.jpg" data-image="images/internal/big/happy_birthday_001.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Happy Birthday" src="images/internal/thumbs/happy_birthday_002.jpg" data-image="images/internal/big/happy_birthday_002.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Happy Birthday" src="images/internal/thumbs/happy_birthday_003.jpg" data-image="images/internal/big/happy_birthday_003.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Vacation" src="images/internal/thumbs/vacation_001.jpg" data-image="images/internal/big/vacation_001.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Vacation" src="images/internal/thumbs/vacation_002.jpg" data-image="images/internal/big/vacation_002.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Vacation" src="images/internal/thumbs/vacation_003.jpg" data-image="images/internal/big/vacation_003.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Vacation" src="images/internal/thumbs/vacation_004.jpg" data-image="images/internal/big/vacation_004.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Vacation" src="images/internal/thumbs/vacation_005.jpg" data-image="images/internal/big/vacation_005.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Vacation" src="images/internal/thumbs/vacation_006.jpg" data-image="images/internal/big/vacation_006.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Vacation" src="images/internal/thumbs/vacation_007.jpg" data-image="images/internal/big/vacation_007.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Vacation" src="images/internal/thumbs/vacation_008.jpg" data-image="images/internal/big/vacation_008.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+      <a href="#">
+        <img alt="Vacation" src="images/internal/thumbs/vacation_009.jpg" data-image="images/internal/big/vacation_009.jpg" data-description="Teknisi" style="display: none" />
+      </a>
+
+
+    </div>
+  </div>
+
+    </main>
+    <!-- Footer -->
+    <footer class="footer pt-5 bg-greyMI">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-sm-5 col-md-5 col-lg-4 pb-5">
+            <h5><a class="link_footer_h5" href="solution.html"><b>SOLUTION PROVIDER</b></a></h5>
+            <ul class="list-unstyled text-small ps-45">
+              <li><a class="link_footer_tebal" href="solution/military_law_enforcement.html">Military & Law Enforcement</a></li>
+              <li><a class="link_footer_tipis" href="solution/maritime_technology.html">Maritime Technology</a></li>
+              <li><a class="link_footer_tebal" href="solution/security_intelligence.html">Security Intelligence</a></li>
+              <li><a class="link_footer_tipis" href="solution/professional_information_technology.html">Professional Information Technology</a></li>
+              <li><a class="link_footer_tebal" href="solution/radio_telecommunication.html">Radio & Telecommunication</a></li>
+              <li><a class="link_footer_tipis" href="solution/aviation_navigation.html">Aviation & Navigation</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-5 col-md-5 col-lg pb-5">
+            <h5><a class="link_footer_h5" href="about.html"><b>ABOUT</b></a></h5>
+            <ul class="list-unstyled text-small ps-45">
+              <li><a class="link_footer_tebal" href="about.html">Who We Are</a></li>
+              <li><a class="link_footer_tipis" href="contact.html">Contact Us</a></li>
+              <li><a class="link_footer_tebal" href="photo_gallery.html">Photo Gallery</a></li>
+              <li><a class="link_footer_tipis" href="project_sites.html">Project Sites</a></li>
+              <!-- <li><hr class="dropdown-divider ms-0 w-50"></li> -->
+              <li><a class="link_footer_tebal" href="customer_list.html">Customer List</a></li>
+              <li><a class="link_footer_tipis" href="global_partner.html">Global Partner</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-5 col-md-5 col-lg pb-5 text-white">
+            <h5 class="judul_footer_h5"><b>PT MULTIINTEGRA</b></h5>
+            <p class="text_footer ps-45">Taman Berdikari Sentosa B-1D,</br>
+            Jl. Pemuda, Jakarta Timur 13220</br>
+            </br>
+            Tel. : +62-21-4705108</br>
+            Fax : +62-21-4705126</br>
+            E-mail: info@multiintegra.co.id</p>
+            </div>
+          <div class="col-sm-5 col-md-5 col-lg pb-5">
+            <div class="">
+              <!-- Logo MITG -->
+              <span><img class="ps-5 pe-5" src="./images/logo/logo_mitg_white.svg" alt=""></span>
+            </div>
+            <!-- Social Media -->
+            <div class="ps-5 pe-5 pt-3">
+              <div class="col-auto text-center align-content-center">
+                <hr class="mb-2 pt-0">
+                <p class="text_footer mb-0 pb-0">Follow Us :</p>
+                <!-- <p class="text_footer pb-5 text-center"><a href="https://www.instagram.com/multiintegratechnologygroup/" title="Follow MultiIntegra on Instagram" target="_blank" class="sosmed_instagram ps-2 pe-2"><i class="bi-instagram"></i></a>
+                  <a href="https://web.facebook.com/Multiintegra" title="Follow MultiIntegra on Facebook" target="_blank" class="sosmed_facebook ps-2 pe-2"><i class="bi-facebook"></i></a></p> -->
+                <a href="https://www.instagram.com/multiintegratechnologygroup/" title="Follow MultiIntegra on Instagram" target="_blank" class="sosmed_instagram ps-2 pe-2"><i class="bi-instagram"></i></a>
+                <a href="https://web.facebook.com/Multiintegra" title="Follow MultiIntegra on Facebook" target="_blank" class="sosmed_facebook ps-2 pe-2"><i class="bi-facebook"></i></a>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./js/mitg.js"></script>
+
+    <!-- script tambahan untuk photo gallery -->
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        jQuery("#gallery").unitegallery({
+          tiles_justified_space_between: 10,
+          tiles_type: "justified",
+        });
+      });
+    </script>
+  </body>
+</html>

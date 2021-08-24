@@ -9,53 +9,142 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "sansationlight";
   src: url("Sansation-Light-webfont.eot");
   src: url("Sansation-Light-webfont.eot?#iefix") format("embedded-opentype"), url("Sansation-Light-webfont.woff2") format("woff2"), url("../font/Sansation-Light-webfont.woff") format("woff"),
     url("Sansation-Light-webfont.ttf") format("truetype"), url("Sansation-Light-webfont.svg#sansationbold") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
-/* BG Footer */
+/* Footer -------------------------------------------------------*/
 .bg-greyMI {
   background-color: #616060;
 }
 
-.link_footer {
+.link_footer_tebal {
   color: #bebebe;
   text-decoration-line: none;
   -moz-text-decoration-line: none;
 }
 
-.link_footer:hover {
+.link_footer_tipis {
+  color: #8b8b8b;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+
+/* .link_footer,
+.link_footer_tebal,
+.link_footer_tipis {
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+  padding-left: 2rem;
+  padding-inline-start: 2rem;
+} */
+
+.link_footer:hover,
+.link_footer_tebal:hover,
+.link_footer_tipis:hover {
   color: #dadada;
   text-decoration-line: underline;
   -moz-text-decoration-line: underline;
 }
 
 .link_footer_h5 {
+  /* text-decoration-thickness: bold; */
+  background: url("../images/element/white_box.svg");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2rem;
   color: white;
   text-decoration-line: none;
   -moz-text-decoration-line: none;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .link_footer_h5:hover {
+  background: url("../images/element/white_dot.svg");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2rem;
   color: white;
   text-decoration-line: underline;
   -moz-text-decoration-line: underline;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.judul_footer_h5 {
+  /* text-decoration-thickness: bold; */
+  background: url("../images/element/white_box.svg");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2rem;
+  color: white;
+  /* text-decoration-line: none; */
+  /* -moz-text-decoration-line: none; */
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.judul_footer_h5:hover {
+  background: url("../images/element/white_dot.svg");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2rem;
+  color: white;
+  /* text-decoration-line: underline;
+  -moz-text-decoration-line: underline; */
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .text_footer {
   color: #bebebe;
 }
 
-/* Social Media Button */
+.white_box_footer {
+  background: url("../images/element/white_box.svg");
+  background-size: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2rem;
+}
+
+.white_dot_footer {
+  background: url("../images/element/white_dot.svg");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2rem;
+}
+
+/* Social Media Button -----------------------------------------*/
 .sosmed_instagram {
+  font-size: 2rem;
   color: #bebebe;
 }
 .sosmed_facebook {
+  font-size: 2rem;
   color: #bebebe;
 }
 .sosmed_facebook:hover {
@@ -193,6 +282,10 @@ body {
   text-align: center;
 }
 
+.merah_mitg {
+  color: #b52e25;
+}
+
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
 
@@ -217,11 +310,16 @@ body {
   bottom: 3rem;
   z-index: 10;
   left: 0 !important;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 36rem;
+  height: 42rem;
   background-color: #616060;
   /* default nya 32rem */
 }
@@ -491,6 +589,11 @@ body {
   text-align: start;
 }
 
+.judul_tengah {
+  color: #767473;
+  text-align: center;
+}
+
 .judul_kanan {
   color: #767473;
   text-align: end;
@@ -519,10 +622,30 @@ body {
   color: #dcd9d8;
 }
 
+/* logo MITG menu atas -------------------------------------*/
+/* .link_news > h3,
+.link_news > a {
+  color: white;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+} */
+.logo {
+  width: 170px;
+  height: auto;
+}
+
 /* aksen multiintegra --------------------------------------*/
 .red_line {
-  height: 10px;
-  width: max-content;
+  /* height: 10px; */
+  /* width: max-content; */
+  /* width: max-content; */
+  /* ---------- */
+  object-fit: cover; /* Do not scale the image */
+  object-position: left; /* Center the image within the element */
+  /* width: 100%; */
+  max-height: 42px;
+  /* height: 42px; */
+  /* margin-bottom: 1rem; */
 }
 
 .red_line_menu {
@@ -532,6 +655,13 @@ body {
 
 .red_box {
   background: url("../images/element/red_box.svg");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.white_box {
+  background: url("../images/element/white_box.svg");
   background-size: 1rem;
   background-repeat: no-repeat;
   background-position: left center;
@@ -558,9 +688,45 @@ body {
 .background_solution {
   background: url("../images/element/bg_solution.svg") no-repeat;
   /* background-position: absolute; */
-  background-position-x: right;
-  background-position-y: top;
+  /* background-position-x: right, auto;
+  background-position-y: top, auto; */
+  background-position: right top;
   background-size: 1700px auto;
+}
+
+.background_silver {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  background: #767473; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #9e9e9e, #767473); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #9e9e9e, #767473); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.background_big_ring {
+  background: url("../images/element/big_ring.svg") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 1700px auto;
+  animation: rotation 70s infinite linear;
+  z-index: -1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.rotate {
+  animation: rotation 170s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .container-fluid {
@@ -580,12 +746,24 @@ body {
 }
 
 .post_news {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .image_news {
-  height: 200px;
-  width: 200px;
+  /* ukuran gambar 380 x 250 px */
+  /* height: 250px;
+  width: max-content; */
+  object-fit: fill;
+  /* object-position: right top; */
+}
+
+.hover_box:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 1000ms ease;
 }
 
 .link_news > h3,
@@ -593,6 +771,11 @@ body {
   color: white;
   text-decoration-line: none;
   -moz-text-decoration-line: none;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 500ms ease;
 }
 
 .link_news:hover > h3,
@@ -638,6 +821,25 @@ body {
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #727272;
+}
+
+/* Photo Gallery */
+.link_photo > h5,
+.link_photo {
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 500ms ease;
+}
+
+.link_photo:hover > h5,
+.link_photo:hover {
+  color: #b52e25;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
 }
 
 /* Google map responsive------------------- */
