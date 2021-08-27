@@ -8,16 +8,14 @@ icon radio masih ragu
 >>DONE<< slide ada 6 gambar (mewakili solution)
 
 -halaman solution provider------------------------------
-applicable for ngeblok silver memanjang
+>>DONE<< applicable for ngeblok silver memanjang
 yg gambar bagan dikasih frame
+>>DONE<< motif batik di bagian atas judul (pojok kanan)
 
 -halaman who we are-------------------------------------
 >>DONE<< bagian logo diblok abu2 dan logo warna putih, kecuali logo MITG
 tambah milestone di bagian paling bawah
-kasih background bola dunia
-
--header-------------------------------------------------
-motif batik di bagian atas judul (pojok kanan)
+>>DONE<< kasih background bola dunia
 
 -footer-------------------------------------------------
 >>DONE<< footer (sub judul kasih kotak / hover 3 dot, bold-tipis untuk list)
@@ -29,10 +27,10 @@ motif batik di bagian atas judul (pojok kanan)
 >>DONE<< nambah menu project site
 
 -nambah halaman-----------------------------------------
-photo gallery
-project sites
+>>DONE<< photo gallery
+>>DONE<< project sites
 
 
 [YANG PERLU DIPERBAIKI]|||||||||||||||||||||||||||||||||
 
--halaman solution provider dirapikan (mode hp masih berantakan)
+>>DONE<< halaman solution provider dirapikan (mode hp masih berantakan)

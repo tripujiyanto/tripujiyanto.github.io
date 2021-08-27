@@ -545,6 +545,44 @@ body {
   background-size: cover, auto;
 }
 
+.judul_halaman_atas_batik {
+  background: rgb(194, 191, 190);
+  background: url("../images/element/batik.svg") no-repeat, -moz-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/batik.svg") no-repeat, -webkit-linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background: url("../images/element/batik.svg") no-repeat, linear-gradient(90deg, rgba(194, 191, 190, 1) 0%, rgba(232, 229, 228, 1) 100%);
+  background-size: cover, auto;
+}
+
+.judul_halaman_atas_batik_biru {
+  background: #4b6cb7; /* fallback for old browsers */
+  background: url("../images/element/batik.svg") no-repeat, -webkit-linear-gradient(to right, #182848, #4b6cb7); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/batik.svg") no-repeat, linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: url("../images/element/line1.svg") no-repeat cover auto; */
+  background-size: cover, auto;
+}
+
+.judul_halaman_atas_batik_biru {
+  background: #4b6cb7; /* fallback for old browsers */
+  background: url("../images/element/batik.svg") no-repeat, -webkit-linear-gradient(to right, #182848, #4b6cb7); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/batik.svg") no-repeat, linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: url("../images/element/line1.svg") no-repeat cover auto; */
+  background-size: cover, auto;
+}
+
+.judul_halaman_atas_batik_hijau {
+  background: #6a9113; /* fallback for old browsers */
+  background: url("../images/element/batik.svg") no-repeat, -webkit-linear-gradient(to right, #141517, #6a9113); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/batik.svg") no-repeat, linear-gradient(to right, #141517, #6a9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover, auto;
+}
+
+.judul_halaman_atas_batik_merah {
+  background: #870000; /* fallback for old browsers */
+  background: url("../images/element/batik.svg") no-repeat, -webkit-linear-gradient(to right, #190a05, #870000); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/batik.svg") no-repeat, linear-gradient(to right, #190a05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover, auto;
+}
+
 .judul_halaman_atas_biru {
   background: #4b6cb7; /* fallback for old browsers */
   background: url("../images/element/line1.svg") no-repeat, -webkit-linear-gradient(to right, #182848, #4b6cb7); /* Chrome 10-25, Safari 5.1-6 */
@@ -667,7 +705,7 @@ body {
   background-position: left center;
 }
 
-/* Untuk background ring -----------------------------------*/
+/* Untuk background -----------------------------------*/
 .background-ring {
   /* background-image: url("../images/element/ring1.svg"); */
   /* background-position: absolute;
@@ -733,7 +771,7 @@ body {
   padding-top: 5rem;
 }
 
-/* Latest News */
+/* Latest News -----------------------------------------------------*/
 .latest_news {
   padding-top: 3rem;
   /* background-color: black; */
@@ -759,10 +797,10 @@ body {
 
 .hover_box:hover {
   background-color: rgba(0, 0, 0, 0.8);
-  -webkit-transition: all 200ms ease;
-  -moz-transition: all 200ms ease;
-  -ms-transition: all 200ms ease;
-  -o-transition: all 200ms ease;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
   transition: all 1000ms ease;
 }
 
@@ -771,10 +809,10 @@ body {
   color: white;
   text-decoration-line: none;
   -moz-text-decoration-line: none;
-  -webkit-transition: all 200ms ease;
-  -moz-transition: all 200ms ease;
-  -ms-transition: all 200ms ease;
-  -o-transition: all 200ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
@@ -823,7 +861,85 @@ body {
   color: #727272;
 }
 
-/* Photo Gallery */
+/* Solution------------------------------------------------------- */
+.applicable_for {
+  padding: 2rem;
+  margin-bottom: 4rem;
+  background: #eef2f3; /* fallback for old browsers */
+  background: url("../images/element/line5.svg") no-repeat, -webkit-linear-gradient(to right, #eef2f3, #d2dde7); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/line5.svg") no-repeat, linear-gradient(to right, #eef2f3, #d2dde7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover, auto;
+  border-radius: 1rem;
+  /* -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 1.15s ease-in-out, background-color 1.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 300ms ease;
+}
+
+.applicable_for:hover {
+  padding: 2rem;
+  margin-bottom: 4rem;
+  background: #f5f9fa; /* fallback for old browsers */
+  background: url("../images/element/line5.svg") no-repeat, -webkit-linear-gradient(to right, #e3e9eb, #e5ecf3); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/element/line5.svg") no-repeat, linear-gradient(to right, #f1f6f7, #c3cfda); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover, auto;
+  border-radius: 1rem;
+  /* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; */
+  /* -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 1.15s ease-in-out, background-color 1s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 100ms ease;
+}
+
+.list_mitg > ul,
+.list_mitg > li {
+  /* list-style: circle; */
+  /* list-style-image: url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23B52E25" class="bibi-record-fill" viewBox="001616"><path fill-rule="evenodd" d="M813a5501083a55000010z"/></svg>"); */
+  /* list-style-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='%23B52E25' viewBox='0 0 16 16'><path d='M8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0 1A5 5 0 1 0 8 3a5 5 0 0 0 0 10z'/></svg>"); */
+  list-style-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23B52E25' class='bi bi-stop' viewBox='0 0 16 16'><path d='M3.5 5A1.5 1.5 0 0 1 5 3.5h6A1.5 1.5 0 0 1 12.5 5v6a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 11V5zM5 4.5a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 .5-.5V5a.5.5 0 0 0-.5-.5H5z'/></svg>");
+
+  /* list-style-position: 0.5rem; */
+  /* list-style-type: square; */
+}
+
+.red_dot {
+  /* text-decoration-thickness: bold; */
+  background: url("../images/element/red_dot.svg");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: left 0.6rem center;
+  padding-left: 2rem;
+  /* color: white; */
+  /* text-decoration-line: none; */
+  -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -ms-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
+  transition: all 100ms ease;
+}
+
+.red_dot:hover {
+  background: url("../images/element/red_dot.svg");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: left 0.3rem center;
+  padding-left: 2rem;
+  /* color: white; */
+  /* text-decoration-line: underline; */
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+/* Photo Gallery --------------------------------------------------*/
 .link_photo > h5,
 .link_photo {
   text-decoration-line: none;
